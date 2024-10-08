@@ -1,4 +1,4 @@
-Here’s a detailed documentation report for your R Shiny Functional Enrichment Analysis App, explaining each part of the code.
+Here’s a detailed documentation report for your R Shiny Functional Enrichment Analysis App, explaining each part of the [code]()
 
 ---
 
@@ -207,5 +207,3 @@ shinyApp(ui = ui, server = server)
 This command launches the app with the defined **UI** and **server** components.
 
 ---
-
-This documentation outlines the purpose and functionality of each component in your Shiny app. Let me know if you need further adjustments!
