@@ -1,23 +1,12 @@
-## **Hackbio-cancer-internship**
+# **Functional Enrichment Analysis App Report**
 
-** 
-
-## **Functional Enrichment Analysis App Report**
-
-** 
-# Laboratory Reagent Preparation Calculator – User Guide
+---
 
 ## Authors 
 
 (@GitHub): [FaithAyo](https://github.com/FaithAyo), [Chidi03](https://github.com/Chidi03), [Hala](https://github.com/hala2024205)
 
-(@slack):**
-
-**Faith Oluyinka Ayoade(@FaithAyo1)**
-
-**Obibuogu Emmanuel Chidiebere(@Chiddo)**
-
-**Hala Tariq Abdelnabi Mohammad(@Hala)**
+(@slack):**Faith Oluyinka Ayoade(@FaithAyo1)**, **Obibuogu Emmanuel Chidiebere(@Chiddo)**, **Hala Tariq Abdelnabi Mohammad(@Hala)**
 
 
 
@@ -25,6 +14,7 @@
 The Functional Enrichment Analysis App is an interactive R Shiny web application designed to analyze gene sets for functional enrichment using data from The Cancer Genome Atlas (TCGA). The app allows users to select species, perform enrichment analysis, and visualize protein-protein interactions. It is built using R's Shiny framework, integrating bioinformatics tools such as `TCGAbiolinks` and `biomaRt` to enable analysis of gene ontology (GO) terms and pathways.
 
 #### **App Functionality**
+
 The app features four main sections:
 
 1. **Home**: Provides an introduction and navigation guide.
@@ -33,16 +23,16 @@ The app features four main sections:
 4. **Contact**: Lists contact information for support and feedback.
 
 #### **Methods Used for Analysis**
-- **Gene Information Retrieval**: The app uses the `biomaRt` package to retrieve gene symbols and corresponding Entrez IDs from Ensembl for the selected species.
+- **Gene Information Retrieval**: The app uses the `biomaRt` package to retrieve gene symbols and corresponding IDs from Ensembl for the selected species.
 - **TCGA Data Query**: Using the `TCGAbiolinks` package, the app queries the TCGA database for transcriptomic data related to specific projects (e.g., TCGA-BRCA for breast cancer).
 - **Enrichment Analysis**: The `TCGAanalyze_EAcomplete()` function is used to conduct enrichment analysis, identifying overrepresented GO terms and pathways in the gene set. Results are displayed using `TCGA_EAbarplot()`.
 - **Protein Interaction Network**: The app employs `visNetwork` to visualize protein-protein interactions, showcasing connections between selected genes and their functional interactions.
+---
 
 #### **Challenges Encountered**
-- **Species Customization**: Modifying the app to work with a variety of species required mapping species data correctly, ensuring that gene annotations for species like catfish and goat were available through `biomaRt`.
-- **Data Availability**: One challenge was ensuring data availability for various projects in TCGA, as some species and datasets were more commonly represented than others.
+- **Species Customization**: Modifying the app to work with various species required correctly mapping species data, ensuring that gene annotations for species like catfish and goat were available through `biomaRt`.
 - **Performance Optimization**: Handling large datasets during gene enrichment analysis caused performance issues, requiring optimizations in data retrieval and analysis processes.
-- **Visualization of Complex Data**: Displaying protein interaction networks in an intuitive and responsive way presented some challenges in ensuring the interactivity was user-friendly while also scalable for larger datasets.
+---
 
 #### **Conclusion**
 The Functional Enrichment Analysis App provides a streamlined platform for performing gene set enrichment analysis across multiple species, with additional capabilities for visualizing protein interactions. Despite challenges related to species data and handling large datasets, the app successfully integrates TCGA data and functional annotations into a user-friendly interface for bioinformatics research.
