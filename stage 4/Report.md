@@ -1,8 +1,25 @@
-#Functional Enrichment 
-you can find the app [here](https://hags.shinyapps.io/functionalenrichment/)
+## **Hackbio-cancer-internship**
+
+** 
+
+## **Functional Enrichment Analysis App Report**
+
+** 
+# Laboratory Reagent Preparation Calculator – User Guide
+
+## Authors 
+
+(@GitHub): [FaithAyo](https://github.com/FaithAyo), [Chidi03](https://github.com/Chidi03), [Hala](https://github.com/hala2024205)
+
+(@slack):**
+
+**Faith Oluyinka Ayoade(@FaithAyo1)**
+
+**Obibuogu Emmanuel Chidiebere(@Chiddo)**
+
+**Hala Tariq Abdelnabi Mohammad(@Hala)**
 
 
-### **Functional Enrichment Analysis App Report**
 
 #### **Introduction**
 The Functional Enrichment Analysis App is an interactive R Shiny web application designed to analyze gene sets for functional enrichment using data from The Cancer Genome Atlas (TCGA). The app allows users to select species, perform enrichment analysis, and visualize protein-protein interactions. It is built using R's Shiny framework, integrating bioinformatics tools such as `TCGAbiolinks` and `biomaRt` to enable analysis of gene ontology (GO) terms and pathways.
@@ -29,5 +46,11 @@ The app features four main sections:
 
 #### **Conclusion**
 The Functional Enrichment Analysis App provides a streamlined platform for performing gene set enrichment analysis across multiple species, with additional capabilities for visualizing protein interactions. Despite challenges related to species data and handling large datasets, the app successfully integrates TCGA data and functional annotations into a user-friendly interface for bioinformatics research.
+
+### **References**
+1. [ShinyGO]((https://academic.oup.com/bioinformatics/article/36/8/2628/5688742?login=false))
+2. You can access the app [here](https://hags.shinyapps.io/functionalenrichment/)
+3. The app documentation [here](https://github.com/FaithAyo/HackBio_Stage_4/blob/main/stage%204/documentation.md)and the code used to generate the app [here]()
+
 
 
