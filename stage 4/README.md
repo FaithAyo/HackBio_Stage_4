@@ -4,7 +4,7 @@
 ---
 ## Overview:
 ---
-In this task, you will reproduce the development of an interactive R Shiny app for performing functional enrichment analysis as described in the paper ShinyGO: a graphical gene-set enrichment tool for animals and plants. Specifically, you will create a Shiny app that leverages the TCGAanalyze_EAcomplete() and TCGA_EAbarplot() function from the TCGAbiolinks package in R (Engage with a Biomarker developer to explain this to you). Overall, please keep things simple for now.
+In this task, you will reproduce the development of an interactive R Shiny app for performing functional enrichment analysis as described in the paper [ShinyGO: a graphical gene-set enrichment tool for animals and plants](https://academic.oup.com/bioinformatics/article/36/8/2628/5688742?login=false). Specifically, you will create a Shiny app that leverages the TCGAanalyze_EAcomplete() and TCGA_EAbarplot() function from the TCGAbiolinks package in R (Engage with a Biomarker developer to explain this to you). Overall, please keep things simple for now.
 
 1. Form a team of 3
 2. Read the paper
