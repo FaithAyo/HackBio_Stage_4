@@ -83,7 +83,7 @@ ui <- dashboardPage(
   )
 )
 
-# Server logic
+# The Server
 server <- function(input, output, session) {
   
   # Gene sets
