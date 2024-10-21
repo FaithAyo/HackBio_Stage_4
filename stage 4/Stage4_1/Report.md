@@ -55,6 +55,6 @@ The Functional Enrichment Analysis App successfully integrates key functions fro
 
 ### **References**
 
-1. [ShinyGO: a graphical gene-set enrichment tool for animals and plants](https://academic.oup.com/bioinformatics/article/36/8/2628/5688742?login=false)
+1. [ShinyGO:](https://academic.oup.com/bioinformatics/article/36/8/2628/5688742?login=false) a graphical gene-set enrichment tool for animals and plants
 2. The app can be accessed [here](https://faithayo1.shinyapps.io/fxnenrichment/)
 3. Documentation for the app is available [here](https://github.com/FaithAyo/HackBio_Stage_4/blob/main/stage%204/Stage4.1/documentation.md), and the source code can be found [here](https://github.com/FaithAyo/HackBio_Stage_4/blob/main/stage%204/Stage4_1/app.R).
